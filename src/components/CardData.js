@@ -2,43 +2,42 @@
 
 export default [
 {
-    image:"./images/katie-zaferes.png",
-    rating:"5.0",
-    reviews:6,
-    country:"USA",
+    id:1,
     title:"Life Lessons with Katie Zaferes",
-    price:136
-},
-{
-    image:"./images/wedding-photography.png",
+    description:"",
+    price:136,
+    coverImg:"./images/katie-zaferes.png",
+    stats:{
     rating:"5.0",
-    reviews:30,
-    country:"USA",
-    title:"Learn wedding photography",
-    price:125
+    reviewCount:6
+    },
+    location:"Online",
+    openSpots:0   
 },
 {
-    image:"./images/wedding-photography.png",
+    id:2,
+    title:"Learn wedding photography",
+    description:"",
+    price:125,
+    coverImg:"./images/wedding-photography.png",
+    stats:{
     rating:"5.0",
-    reviews:30,
-    country:"USA",
-    title:"Learn wedding photography",
-    price:125
+    reviewCount:30
+    },
+    location:"Online",
+    openSpots:2
 },
 {
-    image:"./images/wedding-photography.png",
-    rating:"5.0",
-    reviews:30,
-    country:"USA",
-    title:"Learn wedding photography",
-    price:125
-},
-{
-    image:"./images/mountain-bike.png",
-    rating:"4.8",
-    reviews:2,
-    country:"USA",
+    id:3,
     title:"Group Mountain Biking",
-    price:50
+    description:"",
+    price:50,
+    coverImg:"./images/mountain-bike.png",
+    stats:{
+    rating:"4.8",
+    reviewCount:2
+    },
+    location:"Norway",
+    openSpots:5
 }
 ]
